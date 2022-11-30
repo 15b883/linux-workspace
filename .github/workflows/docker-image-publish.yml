@@ -7,7 +7,7 @@ on:
 jobs:
   github_container:
    name: Github Container Registry
-   runs-on: centos-latest
+   runs-on: ubuntu-latest
    steps:
      - name: Get short SHA
        id: sha
